@@ -12,6 +12,8 @@
 		983D00251F6DF18E0058B911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D00231F6DF18E0058B911 /* Main.storyboard */; };
 		983D00271F6DF18E0058B911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983D00261F6DF18E0058B911 /* Assets.xcassets */; };
 		983D002A1F6DF18E0058B911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D00281F6DF18E0058B911 /* LaunchScreen.storyboard */; };
+		983D00341F6DF4CE0058B911 /* SwitchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00331F6DF4CE0058B911 /* SwitchStatus.swift */; };
+		983D00361F6DF5010058B911 /* Togglable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D00351F6DF5010058B911 /* Togglable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		983D00261F6DF18E0058B911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983D00291F6DF18E0058B911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983D002B1F6DF18E0058B911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983D00331F6DF4CE0058B911 /* SwitchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatus.swift; sourceTree = "<group>"; };
+		983D00351F6DF5010058B911 /* Togglable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Togglable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		983D001E1F6DF18E0058B911 /* FlashLight */ = {
 			isa = PBXGroup;
 			children = (
+				983D00321F6DF4B10058B911 /* Protocols */,
+				983D00311F6DF4AA0058B911 /* Enums */,
 				983D001F1F6DF18E0058B911 /* AppDelegate.swift */,
 				983D00211F6DF18E0058B911 /* ViewController.swift */,
 				983D00231F6DF18E0058B911 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				983D002B1F6DF18E0058B911 /* Info.plist */,
 			);
 			path = FlashLight;
+			sourceTree = "<group>";
+		};
+		983D00311F6DF4AA0058B911 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				983D00331F6DF4CE0058B911 /* SwitchStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		983D00321F6DF4B10058B911 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				983D00351F6DF5010058B911 /* Togglable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			files = (
 				983D00221F6DF18E0058B911 /* ViewController.swift in Sources */,
 				983D00201F6DF18E0058B911 /* AppDelegate.swift in Sources */,
+				983D00341F6DF4CE0058B911 /* SwitchStatus.swift in Sources */,
+				983D00361F6DF5010058B911 /* Togglable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

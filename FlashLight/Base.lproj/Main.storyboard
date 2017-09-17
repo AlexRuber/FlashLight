@@ -51,6 +51,7 @@
                     </view>
                     <connections>
                         <outlet property="onOffLbl" destination="3OD-EN-9jy" id="jZ3-1D-eXh"/>
+                        <outlet property="toggleBtn" destination="ggh-xK-Txy" id="POS-Dt-XjQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
