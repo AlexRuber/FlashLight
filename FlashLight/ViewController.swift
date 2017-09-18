@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         switchStatus.toggle()
         if switchStatus == .off {
             toggleOff()
-            view.backgroundColor = UIColor.darkGray
+            view.backgroundColor = #colorLiteral(red: 0.1468022913, green: 0.1468022913, blue: 0.1468022913, alpha: 1)
             toggleBtn.setImage(UIImage(named: "offBtn"), for: .normal)
             onOffLbl.text = "OFF"
             onOffLbl.textColor = UIColor.white
